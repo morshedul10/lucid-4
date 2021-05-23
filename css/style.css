@@ -1,0 +1,265 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  .header-container {
+  }
+  header {
+    height: 100vh;
+    background-image: url(../images/lucid-background-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+  }
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 32px;
+  }
+  .navbar-light .navbar-brand:hover {
+    color: #fff;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 22px;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff !important;
+  }
+  .navbar .nav-item {
+    position: relative;
+    margin-left: 18px;
+  }
+  .navbar-light .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #008ed6;
+    transition: 0.5s all ease-in-out;
+  }
+  .navbar-light .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #008ed6;
+    transition: 0.5s all ease-in-out;
+  }
+  .navbar-nav .nav-link:hover::before {
+    width: 48%;
+  }
+  .navbar-nav .nav-link:hover::after {
+    width: 48%;
+  }
+  .contents {
+  }
+  .banner-content {
+  }
+  .banner-content h5 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #008ed6;
+  }
+  .banner-content h1 {
+    font-size: 59px;
+    font-family: "Quicksand", sans-serif;
+  }
+  .banner-content p {
+    font-size: 24px;
+    font-weight: normal;
+    color: #999999;
+  }
+  .banner-image {
+  }
+  .banner-image img {
+    position: absolute;
+    right: 16%;
+    bottom: 0;
+    width: 30%;
+  }
+  .btn-download {
+    font-size: 19px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #008ed6;
+    padding: 10px 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: capitalize;
+    transition: 0.3s all ease-in-out;
+    text-transform: uppercase;
+  }
+  .btn-download:hover {
+    background: transparent;
+    border: 1px solid #636363;
+    color: #fff;
+  }
+  .btn-feature {
+    font-size: 19px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    padding: 10px 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    border: 1px solid #636363;
+    transition: 0.3s all ease-in-out;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+  .btn-feature:hover {
+    background-color: #008ed6;
+    color: #fff;
+    border: transparent;
+  }
+  .product_overview_section {
+    border-bottom: 1px solid #d0d0d0;
+  }
+  .section_heading {
+    position: relative;
+  }
+  
+  .section_heading h5 {
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    color: #008ed6;
+    text-transform: uppercase;
+  }
+  .section_heading h2 {
+    font-size: 35px;
+    font-family: "Quicksand";
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  .section_heading span {
+    display: inline-block;
+    height: 2px;
+    width: 80px;
+    position: relative;
+  }
+  .section_heading span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #008ed6;
+    transition: 0.5s all ease-in-out;
+  }
+  .product_overview_section:hover span::before {
+    width: 45%;
+  }
+  
+  .section_heading span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #008ed6;
+    transition: 0.5s all ease-in-out;
+  }
+  .product_overview_section:hover span::after {
+    width: 45%;
+  }
+  .product_overview_section i {
+    font-size: 30px;
+    color: #008ed6;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #d2d2d2;
+    border-radius: 50px;
+    line-height: 100px;
+    margin-bottom: 20px;
+  }
+  .product_overview_section h3 {
+    font-family: "Source Sans Pro";
+    font-size: 28px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+  }
+  .product_overview_section p {
+    color: #999999;
+  
+    font-size: 19px;
+  
+    font-family: "Source Sans Pro";
+  }
+  .dip_details_secton {
+  }
+  .dip_details_secton:hover span::before {
+    width: 45%;
+  }
+  .dip_details_secton:hover span::after {
+    width: 45%;
+  }
+  .dip_details_content {
+  }
+  .dip_details_content p {
+    color: #999999;
+    font-family: "Source Sans Pro";
+    font-size: 19px;
+    padding: 30px 0px;
+  }
+  .dip_details_icon_text_part {
+    display: flex;
+  }
+  .dip_icons {
+  }
+  .dip_icons i {
+    display: block;
+  
+    color: #008ed6;
+  
+    padding-top: 11px;
+  
+    text-align: center;
+  }
+  .dip_icon_text {
+    padding-left: 19px;
+  }
+  .dip_icon_text p {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: "Source Sans Pro";
+  }
+  .super_easy_section {
+    background-color: #f2f2f2;
+  }
+  .super_easy_section:hover span::before{
+    width: 48%;
+  }
+  .super_easy_section:hover span::after{
+    width: 48%;
+  }
+  .super_easy_section_heading {
+    padding: 48px 0px;
+  }
+  .super_easy_section p {
+    color: #999999;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    padding: 30px 0px;
+  }
+  .super_easy_image {
+  }
+  .super_easy_image img {
+  }
+  
